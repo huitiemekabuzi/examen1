@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container-admin {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(232, 54, 54, 0.1);
+}
+
+.navbar_admin {
+  background-color: #0a64ae;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar_admin ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar_admin ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar_admin ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar_admin ul li button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sub_container_admin {
+  margin-top: 20px;
+}
+
+.espace_admin {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.addUser form {
+  margin-bottom: 20px;
+}
+
+.addUser label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.addUser input[type="email"],
+.addUser input[type="password"],
+.addUser input[type="file"],
+.addUser input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0a64ae;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btn_envoyer_admin {
+  background-color: #0a64ae;
+  color: #f8f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #333;
+}
